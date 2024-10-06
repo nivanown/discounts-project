@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  // Открытие/закрытие выпадающего списка по клику на language__text
+  // Открытие/закрытие выпадающего списка по клику на search__text
   searchIcon.addEventListener('click', toggleDropdown);
 
-  // Закрытие выпадающего списка при клике вне language__dropdown
+  // Закрытие выпадающего списка при клике вне search__dropdown
   document.addEventListener('click', function(event) {
     if (!event.target.closest('.search')) {
       searchDropdown.classList.remove('open');
@@ -120,7 +120,6 @@ swiperConfigs.forEach(config => {
 });
 
 /*- timer -*/
-// Функция для создания таймера
 function createTimer(elementId, countdownTime) {
   const timerElement = document.getElementById(elementId);
 
