@@ -1,0 +1,239 @@
+/* 1400 */
+@media (max-width: 1400px) {
+
+[class*="__container"] {
+	max-width: 1024px;
+	}
+
+.main-nav {
+	display: none;
+	}
+
+.user-panel {
+	gap: 0 28px;
+	}
+
+.user-panel .telegram {
+	display: none;
+	}
+
+.user-panel .user-profile {
+	display: none;
+	}
+
+.options {
+	gap: 0 10px;
+	}
+
+.user-panel > .btn {
+	display: none;
+	}
+
+.menu-btn {
+	display: block;
+	}
+
+.main__in {
+	gap: 0 30px;
+	}
+
+.content {
+	max-width: 674px;
+	}
+
+}
+
+/* 1079 */
+@media (max-width: 1079px) {
+
+.main__in {
+	display: block;
+	gap: 0;
+	}
+
+.sidebar {
+	max-width: inherit;
+	margin: 0 -15px;
+	padding: 30px 15px;
+	}
+
+.discount-offers {
+	display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px 15px;
+  flex-direction: inherit;
+	}
+
+.sidebar__btn-panel {
+	display: flex;
+	justify-content: center;
+	}
+
+.content {
+	padding: 60px 0;
+	max-width: inherit;
+	}
+
+.discounts-slider .swiper-button-next, 
+.discounts-slider .swiper-button-prev {
+	display: none;
+	}
+
+}
+
+/* 809 */
+@media (max-width: 809px) {
+
+.discount-offers {
+  grid-template-columns: repeat(2, 1fr);
+	}
+
+.accordion__description {
+	padding: 15px 0 0;
+	}
+
+}
+
+/* 600 */
+@media (max-width: 600px) {
+
+.header__in {
+	padding: 10px 15px 10px 0;
+	}
+
+.logo {
+	width: 72px;
+	}
+
+.search__dropdown form {
+	flex-direction: column;
+	gap: 10px 0;
+	padding: 15px;
+	}
+
+.search__dropdown fieldset {
+	width: 100%;
+	}
+
+.search__dropdown .btn {
+	width: 100%;
+	}
+
+.sidebar {
+	padding: 60px 15px 72px;
+	}
+
+.title {
+	font-size: 40px;
+	line-height: 40px;
+	}
+
+.best-discounts {
+	margin: 0 0 50px;
+	padding: 20px 20px 30px;
+	}
+
+.tabs__nav ul {
+	gap: 0 12px;
+	}
+
+.info {
+	margin: 0 0 50px;
+	}
+
+.accordion__title-panel {
+	padding: 0 34px 0 0;
+	}
+
+.accordion__icon {
+	width: 24px;
+	height: 24px;
+	}
+
+}
+
+/* 480 */
+@media (max-width: 480px) {
+
+.discount-offers {
+	gap: 8px 8px;
+	margin: 0 0 16px;
+	}
+
+.discount__col {
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 6px 0;
+	}
+
+.best-discounts {
+	padding: 20px 12px 30px;
+	}
+
+.title_border-bottom {
+	margin: 0 -12px 20px;
+	padding: 0 12px 24px;
+	}
+
+.tabs__nav {
+	margin: 0;
+	padding: 0;
+	}
+
+.tabs__nav ul {
+  margin: 0 -12px 18px;
+  padding: 0 12px 12px;
+  max-width: inherit;
+  width: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+	}
+
+.tabs__nav li {
+  flex-shrink: 0;
+  width: auto;
+  white-space: normal;
+	}
+
+.tabs__nav li:after {
+	bottom: -12px;
+	}
+
+.mobile-modal__content {
+	width: 320px;
+	right: -320px;
+	}
+
+}
+
+/* 460 */
+@media (max-width: 460px) {
+
+.discount_big-size .discount__col {
+	flex-direction: inherit;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 0;
+	}
+
+}
+
+/* 359 */
+@media (max-width: 359px) {
+
+.discount-offers {
+	grid-template-columns: repeat(1, 1fr);
+	gap: 15px 0;
+	}
+
+.discount__col {
+	flex-direction: inherit;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0 0;
+	}
+
+}
